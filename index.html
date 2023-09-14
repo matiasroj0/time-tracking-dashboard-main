@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <!--  -->
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+
+  <main>
+    <section class="top-menu">
+      <div class="top-menu-user">
+        <img src="/images/image-jeremy.png" alt="Jeremy Robson profile picture">
+        <div>
+          <p>Report for</p>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <div class="top-menu-time-selection">
+        <h4 class="daily-selector">Daily</h4>
+        <h4 class="weekly-selector selected">Weekly</h4>
+        <h4 class="monthly-selector">Monthly</h4>
+      </div>
+    </section>
+
+    <section class="time-dashboard">
+      <div class="dashboard-category">
+        <div class="dashboard-category-img-container img-container-work">
+          <img class="dashboard-category-img" src="/images/icon-work.svg" alt="work icon">
+        </div>
+        <div class="dashboard-category-content dashboard-work">
+          <div class="dashboard-top-flex">
+            <h3>Work</h3>
+            <img class="ellipsis-icon" src="/images/icon-ellipsis.svg" alt="ellipsis icon">
+          </div>
+          <div class="dashboard-bottom-flex">
+            <h2><span class="work-current-hours">--</span>hrs</h2>
+            <p>Last Week - <span class="work-previous-hours">--</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-category">
+        <div class="dashboard-category-img-container img-container-play">
+          <img class="dashboard-category-img" src="/images/icon-play.svg" alt="play icon">
+        </div>
+        <div class="dashboard-category-content dashboard-play">
+          <div class="dashboard-top-flex">
+            <h3>Play</h3>
+            <img class="ellipsis-icon" src="/images/icon-ellipsis.svg" alt="ellipsis icon">
+          </div>
+          <div class="dashboard-bottom-flex">
+            <h2><span class="play-current-hours">--</span>hrs</h2>
+            <p>Last Week - <span class="play-previous-hours">--</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-category">
+        <div class="dashboard-category-img-container img-container-study">
+          <img class="dashboard-category-img" src="/images/icon-study.svg" alt="study icon">
+        </div>
+        <div class="dashboard-category-content dashboard-study">
+          <div class="dashboard-top-flex">
+            <h3>Study</h3>
+            <img class="ellipsis-icon" src="/images/icon-ellipsis.svg" alt="ellipsis icon">
+          </div>
+          <div class="dashboard-bottom-flex">
+            <h2><span class="study-current-hours">--</span>hrs</h2>
+            <p>Last Week - <span class="study-previous-hours">--</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-category">
+        <div class="dashboard-category-img-container img-container-exercise">
+          <img class="dashboard-category-img" src="/images/icon-exercise.svg" alt="exercise icon">
+        </div>
+        <div class="dashboard-category-content dashboard-exercise">
+          <div class="dashboard-top-flex">
+            <h3>Exercise</h3>
+            <img class="ellipsis-icon" src="/images/icon-ellipsis.svg" alt="ellipsis icon">
+          </div>
+          <div class="dashboard-bottom-flex">
+            <h2><span class="exercise-current-hours">--</span>hrs</h2>
+            <p>Last Week - <span class="exercise-previous-hours">--</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-category">
+        <div class="dashboard-category-img-container img-container-social">
+          <img class="dashboard-category-img" src="/images/icon-social.svg" alt="social icon">
+        </div>
+        <div class="dashboard-category-content dashboard-social">
+          <div class="dashboard-top-flex">
+            <h3>Social</h3>
+            <img class="ellipsis-icon" src="/images/icon-ellipsis.svg" alt="ellipsis icon">
+          </div>
+          <div class="dashboard-bottom-flex">
+            <h2><span class="social-current-hours">--</span>hrs</h2>
+            <p>Last Week - <span class="social-previous-hours">--</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-category">
+        <div class="dashboard-category-img-container img-container-self-care">
+          <img class="dashboard-category-img" src="/images/icon-self-care.svg" alt="self-care icon">
+        </div>
+        <div class="dashboard-category-content dashboard-self-care">
+          <div class="dashboard-top-flex">
+            <h3>Self Care</h3>
+            <img class="ellipsis-icon" src="/images/icon-ellipsis.svg" alt="ellipsis icon">
+          </div>
+          <div class="dashboard-bottom-flex">
+            <h2><span class="self-care-current-hours">--</span>hrs</h2>
+            <p>Last Week - <span class="self-care-previous-hours">--</span>hrs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script type="module" src="index.js"></script>
+</body>
+</html>
